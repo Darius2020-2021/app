@@ -11,7 +11,7 @@ export class CalenderPage implements OnInit {
   constructor(private programService:ProgramService) { }
  
   ]
-  ngOnInit() {
+  ngOnInit() {}
   }
 
 }
