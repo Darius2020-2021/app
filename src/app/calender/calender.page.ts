@@ -10,8 +10,8 @@ export class CalenderPage implements OnInit {
   //hour time
   constructor(private programService:ProgramService) { }
  
-  ]
+  
   ngOnInit() {}
   }
 
-}
+

@@ -31,6 +31,26 @@ const routes: Routes = [
     path: 'prof',
     loadChildren: () => import('./prof/prof.module').then( m => m.ProfPageModule)
   },
+  {
+    path: 'para',
+    loadChildren: () => import('./parametre/parametre.module').then( m => m.ParametrePageModule)
+  },
+  {
+    path: 'info',
+    loadChildren: () => import('./info/info.module').then( m => m.InfoPageModule)
+  },
+  {
+    path: 'message',
+    loadChildren: () => import('./message/message.module').then( m => m.MessagePageModule)
+  },
+  {
+    path: 'aide',
+    loadChildren: () => import('./aide/aide.module').then( m => m.AidePageModule)
+  },
+  {
+    path: 'notif',
+    loadChildren: () => import('./notif/notif.module').then( m => m.NotifPageModule)
+  },
 ];
 
 @NgModule({
